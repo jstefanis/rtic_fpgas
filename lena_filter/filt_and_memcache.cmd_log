@@ -1,0 +1,3 @@
+vhdtdtfi -lib work D_FF_CONTROL.vhd -lib work D_FF.vhd -lib work mem_cache.vhd -lib work average_image_filter.vhd -lib work filt_and_memcache.vhd -prj lena_filter -o filt_and_memcache.spl -module filt_and_memcache -template /mnt/disks/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work D_FF_CONTROL.vhd -lib work D_FF.vhd -lib work mem_cache.vhd -lib work average_image_filter.vhd -lib work filt_and_memcache.vhd -prj lena_filter -o filt_and_memcache.spl -module filt_and_memcache -template /mnt/disks/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 -w filt_and_memcache.spl /home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/filt_and_memcache.sym 

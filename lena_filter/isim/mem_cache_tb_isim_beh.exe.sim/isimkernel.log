@@ -1,0 +1,10 @@
+Command line:
+   mem_cache_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  35201
+
+Wed Jan  9 01:52:03 2019
+
+
+ Elaboration Time: 0.07 sec

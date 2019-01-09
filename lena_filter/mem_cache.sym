@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="mem_cache">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2019-1-2T7:44:41</timestamp>
+    <pin polarity="Input" x="0" y="-672" name="clk" />
+    <pin polarity="Input" x="0" y="-544" name="reset" />
+    <pin polarity="Input" x="0" y="32" name="mem_cache_en" />
+    <pin polarity="Input" x="0" y="160" name="FIFO_RESET" />
+    <pin polarity="Input" x="0" y="-160" name="camera_input(7:0)" />
+    <pin polarity="Output" x="528" y="-672" name="px_window_ready" />
+    <pin polarity="Output" x="528" y="-544" name="px0(7:0)" />
+    <pin polarity="Output" x="528" y="-480" name="px1(7:0)" />
+    <pin polarity="Output" x="528" y="-416" name="px2(7:0)" />
+    <pin polarity="Output" x="528" y="-352" name="px3(7:0)" />
+    <pin polarity="Output" x="528" y="-288" name="px4(7:0)" />
+    <pin polarity="Output" x="528" y="-224" name="px5(7:0)" />
+    <pin polarity="Output" x="528" y="-160" name="px6(7:0)" />
+    <pin polarity="Output" x="528" y="-96" name="px7(7:0)" />
+    <pin polarity="Output" x="528" y="-32" name="px8(7:0)" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="264" y="-712" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-672" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin reset" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin mem_cache_en" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="160" type="pin FIFO_RESET" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin camera_input(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="456" y="-672" type="pin px_window_ready" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="456" y="-544" type="pin px0(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="456" y="-480" type="pin px1(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="456" y="-416" type="pin px2(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="456" y="-352" type="pin px3(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="456" y="-288" type="pin px4(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="456" y="-224" type="pin px5(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="456" y="-160" type="pin px6(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="456" y="-96" type="pin px7(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="456" y="-32" type="pin px8(7:0)" />
+        <line x2="0" y1="160" y2="160" x1="64" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <rect width="64" x="0" y="-172" height="24" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <line x2="528" y1="-672" y2="-672" x1="464" />
+        <rect width="64" x="464" y="-556" height="24" />
+        <line x2="528" y1="-544" y2="-544" x1="464" />
+        <rect width="64" x="464" y="-492" height="24" />
+        <line x2="528" y1="-480" y2="-480" x1="464" />
+        <rect width="64" x="464" y="-428" height="24" />
+        <line x2="528" y1="-416" y2="-416" x1="464" />
+        <rect width="64" x="464" y="-364" height="24" />
+        <line x2="528" y1="-352" y2="-352" x1="464" />
+        <rect width="64" x="464" y="-300" height="24" />
+        <line x2="528" y1="-288" y2="-288" x1="464" />
+        <rect width="64" x="464" y="-236" height="24" />
+        <line x2="528" y1="-224" y2="-224" x1="464" />
+        <rect width="64" x="464" y="-172" height="24" />
+        <line x2="528" y1="-160" y2="-160" x1="464" />
+        <rect width="64" x="464" y="-108" height="24" />
+        <line x2="528" y1="-96" y2="-96" x1="464" />
+        <rect width="64" x="464" y="-44" height="24" />
+        <line x2="528" y1="-32" y2="-32" x1="464" />
+        <rect width="400" x="64" y="-704" height="896" />
+    </graph>
+</symbol>

@@ -1,0 +1,34 @@
+Running: /mnt/disks/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/mem_cache_tb_isim_beh.exe -prj /home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/mem_cache_tb_beh.prj work.mem_cache_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/ipcore_dir/fifo_memcache.vhd" into library work
+Parsing VHDL file "/home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/D_FF_CONTROL.vhd" into library work
+Parsing VHDL file "/home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/D_FF.vhd" into library work
+Parsing VHDL file "/home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/mem_cache.vhd" into library work
+Parsing VHDL file "/home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/mem_cache_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 102136 KB
+Fuse CPU Usage: 1490 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity D_FF_CONTROL [d_ff_control_default]
+Compiling architecture behavioral of entity D_FF [d_ff_default]
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity fifo_generator_v9_3_bhv_ss [\fifo_generator_v9_3_bhv_ss(10,8...]
+Compiling architecture behavioral of entity fifo_generator_v9_3_conv [\fifo_generator_v9_3_conv(1,0,10...]
+Compiling architecture behavioral of entity fifo_generator_v9_3 [\fifo_generator_v9_3(1,0,10,"Bla...]
+Compiling architecture fifo_memcache_a of entity fifo_memcache [fifo_memcache_default]
+Compiling architecture mem_cache_arch of entity mem_cache [mem_cache_default]
+Compiling architecture mem_cache_tb_arch of entity mem_cache_tb
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 20 VHDL Units
+Built simulation executable /home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/mem_cache_tb_isim_beh.exe
+Fuse Memory Usage: 677828 KB
+Fuse CPU Usage: 1750 ms
+GCC CPU Usage: 4340 ms

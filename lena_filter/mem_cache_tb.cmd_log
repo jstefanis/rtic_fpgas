@@ -1,0 +1,4 @@
+vhdtdtfi -lib work D_FF_CONTROL.vhd -lib work D_FF.vhd -lib work mem_cache.vhd -lib work mem_cache_tb.vhd -prj lena_filter -o mem_cache_tb.spl -module mem_cache_tb -template /mnt/disks/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 -w mem_cache_tb.spl /home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/mem_cache_tb.sym 
+vhdtdtfi -lib work D_FF_CONTROL.vhd -lib work D_FF.vhd -lib work mem_cache.vhd -lib work mem_cache_tb.vhd -prj lena_filter -o mem_cache_tb.spl -module mem_cache_tb -template /mnt/disks/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 -w mem_cache_tb.spl /home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/mem_cache_tb.sym 

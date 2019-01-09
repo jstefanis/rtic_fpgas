@@ -1,0 +1,4 @@
+vhdtdtfi -lib work average_image_filter.vhd -prj lena_filter -o average_image_filter.spl -module average_image_filter -template /mnt/disks/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 -w average_image_filter.spl /home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/average_image_filter.sym 
+vhdtdtfi -lib work average_image_filter.vhd -prj lena_filter -o average_image_filter.spl -module average_image_filter -template /mnt/disks/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 -w average_image_filter.spl /home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/average_image_filter.sym 

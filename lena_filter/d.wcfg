@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/tigon/Nextcloud/vibot-master/realtime-image-processing/lena-filter/lena_filter/mem_cache_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="mem_cache_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/mem_cache_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+      <obj_property name="label">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/fifo_reset" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">fifo_reset</obj_property>
+      <obj_property name="ObjectShortName">fifo_reset</obj_property>
+      <obj_property name="label">fifo_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/caminput" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">caminput[7:0]</obj_property>
+      <obj_property name="ObjectShortName">caminput[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/px1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">px1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">px1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff0000</obj_property>
+      <obj_property name="label">px1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/px2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">px2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">px2[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+      <obj_property name="label">px2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/px3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">px3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">px3[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/px4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">px4[7:0]</obj_property>
+      <obj_property name="ObjectShortName">px4[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/px5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">px5[7:0]</obj_property>
+      <obj_property name="ObjectShortName">px5[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/px6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">px6[7:0]</obj_property>
+      <obj_property name="ObjectShortName">px6[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/px7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">px7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">px7[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/px8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">px8[7:0]</obj_property>
+      <obj_property name="ObjectShortName">px8[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/px9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">px9[7:0]</obj_property>
+      <obj_property name="ObjectShortName">px9[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#aaffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/winready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">winready</obj_property>
+      <obj_property name="ObjectShortName">winready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mem_cache_tb/prog_full_thresh_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prog_full_thresh_1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">prog_full_thresh_1[9:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#c0c0c0</obj_property>
+   </wvobject>
+</wave_config>

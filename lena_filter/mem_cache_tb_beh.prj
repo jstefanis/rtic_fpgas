@@ -1,0 +1,5 @@
+vhdl work "ipcore_dir/fifo_memcache.vhd"
+vhdl work "D_FF_CONTROL.vhd"
+vhdl work "D_FF.vhd"
+vhdl work "mem_cache.vhd"
+vhdl work "mem_cache_tb.vhd"
